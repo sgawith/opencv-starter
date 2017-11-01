@@ -48,7 +48,8 @@ libtheora-dev \
 libvorbis-dev \
 libxvidcore-dev \
 x264 \
-v4l-utils
+v4l-utils \
+imagemagick
 
 RUN mkdir opencv
 WORKDIR opencv
