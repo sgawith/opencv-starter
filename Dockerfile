@@ -54,10 +54,10 @@ imagemagick
 RUN mkdir opencv
 WORKDIR opencv
 
-RUN wget https://github.com/opencv/opencv/archive/2.4.13.4.zip -O opencv-2.4.13.4.zip
-RUN unzip opencv-2.4.13.4.zip
-RUN mkdir opencv-2.4.13.4/build
-WORKDIR opencv-2.4.13.4/build
+RUN wget https://github.com/opencv/opencv/archive/3.3.1.zip -O opencv-3.3.1.zip
+RUN unzip opencv-3.3.1.zip
+RUN mkdir opencv-3.3.1/build
+WORKDIR opencv-3.3.1/build
 
 RUN cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D WITH_TBB=ON -D BUILD_NEW_PYTHON_SUPPORT=ON -D WITH_V4L=ON -D WITH_OPENGL=ON ..
 
