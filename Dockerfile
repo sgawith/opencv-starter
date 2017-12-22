@@ -20,34 +20,34 @@ RUN apt-get install -y software-properties-common
 # RUN apt-get install -y wget
 # RUN apt-get install -y unzip
 RUN apt-get install -y libopencv-dev
-RUN apt-get install -y build-essential
-RUN apt-get install -y git
-RUN apt-get install -y libgtk2.0-dev
-RUN apt-get install -y pkg-config
-RUN apt-get install -y python-dev
-RUN apt-get install -y python-numpy
-RUN apt-get install -y libdc1394-22
-RUN apt-get install -y libdc1394-22-dev
-RUN apt-get install -y libjpeg-dev
-RUN apt-get install -y libpng12-dev
-RUN apt-get install -y libtiff4-dev
-RUN apt-get install -y libjasper-dev
-RUN apt-get install -y libavcodec-dev
-RUN apt-get install -y libavformat-dev
-RUN apt-get install -y libswscale-dev
-RUN apt-get install -y libxine-dev
-RUN apt-get install -y libgstreamer0.10-dev
-RUN apt-get install -y libgstreamer-plugins-base0.10-dev
-RUN apt-get install -y libv4l-dev
-RUN apt-get install -y libtbb-dev
-RUN apt-get install -y libqt4-dev
-RUN apt-get install -y libfaac-dev
-RUN apt-get install -y libmp3lame-dev
-RUN apt-get install -y libopencore-amrnb-dev
-RUN apt-get install -y libopencore-amrwb-dev
-RUN apt-get install -y libtheora-dev
-RUN apt-get install -y libvorbis-dev
-RUN apt-get install -y libxvidcore-dev
+# RUN apt-get install -y build-essential
+# RUN apt-get install -y git
+# RUN apt-get install -y libgtk2.0-dev
+# RUN apt-get install -y pkg-config
+# RUN apt-get install -y python-dev
+# RUN apt-get install -y python-numpy
+# RUN apt-get install -y libdc1394-22
+# RUN apt-get install -y libdc1394-22-dev
+# RUN apt-get install -y libjpeg-dev
+# RUN apt-get install -y libpng12-dev
+# RUN apt-get install -y libtiff4-dev
+# RUN apt-get install -y libjasper-dev
+# RUN apt-get install -y libavcodec-dev
+# RUN apt-get install -y libavformat-dev
+# RUN apt-get install -y libswscale-dev
+# RUN apt-get install -y libxine-dev
+# RUN apt-get install -y libgstreamer0.10-dev
+# RUN apt-get install -y libgstreamer-plugins-base0.10-dev
+# RUN apt-get install -y libv4l-dev
+# RUN apt-get install -y libtbb-dev
+# RUN apt-get install -y libqt4-dev
+# RUN apt-get install -y libfaac-dev
+# RUN apt-get install -y libmp3lame-dev
+# RUN apt-get install -y libopencore-amrnb-dev
+# RUN apt-get install -y libopencore-amrwb-dev
+# RUN apt-get install -y libtheora-dev
+# RUN apt-get install -y libvorbis-dev
+# RUN apt-get install -y libxvidcore-dev
 RUN apt-get install -y x264
 RUN apt-get install -y v4l-utils
 RUN apt-get install -y imagemagick
