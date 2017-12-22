@@ -52,6 +52,7 @@ RUN apt-get install -y x264
 RUN apt-get install -y v4l-utils
 RUN apt-get install -y imagemagick
 RUN apt-get install -y libopencv-core2.4
+RUN apt-get install -y unoconv
 RUN apt-get clean
 RUN apt-get update -qq
 
